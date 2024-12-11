@@ -178,39 +178,7 @@ transparent {
 <b>AV safety</b>; <hide>&rarr;</hide><b>AV motion planning</b>;<hide>&rarr;</hide><b> Data-driven traffic simulations</b>;<hide>&rarr;</hide><b>Driver behavior modeling</b>;<hide>&rarr;</hide><b>Pedestrian-prediction</b>;<hide>&rarr;</hide><b>Pedestrian-vehicle-interactions</b>;<hide>&rarr;</hide><b>Explainability of interactions</b>;<hide>&rarr;</hide><b>Adversarial testing</b>;
 </p>
 
-<script>
-  
-  var countDownDate = new Date("June 22, 2025 23:59:59 UTC").getTime();  
-  countDownDate = countDownDate + 1000 * 3600 * 12 
 
-  
-  var x = setInterval(function() {
-
-    
-    var now = new Date().getTime();
-
-    
-    var distance = countDownDate - now;
-
-    
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    
-    var countdown = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    
-    if (distance < 0) {
-      clearInterval(x);
-      countdown = "(expired)";  
-    }
-
-    document.getElementById("countdown").innerHTML = countdown
-
-  }, 1000);
-</script>
 
 
           </section>
@@ -474,7 +442,7 @@ transparent {
                                     <td class="schedule-slot">
                                       
                                       <span class="speaker-photo">
-                                        <img class="photo" src="https://trust-ad.github.io/img/elin.jpg" alt="Elin Anna Topp">
+                                        <img class="photo" src="https://trust-ad.github.io/img/default.png" alt="Speaker Name">
                                       </span>
                                       
                                       
@@ -556,14 +524,7 @@ transparent {
                                 
                                 
                                 
-                                <script>
-                                  
-                                  var x = setInterval(function() {
-                                    var d = new Date();
-                                    var n = d.toLocaleTimeString("en-US", {timeZone: "Europe/Bucharest", hour: '2-digit', minute:'2-digit', hour12: false})
-                                    document.getElementById("centraltime").innerHTML = n
-                                  }, 1000);
-                                  </script> 
+                                
 
   
   
