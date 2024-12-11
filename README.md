@@ -23,17 +23,17 @@ cd trust-ad.github.io
 1. Run `hugo` in `pwd`, after editing the files. This will generate the `public` folder, which is then used for the deployment.
 2. Steps to push local data to the remote
 ```
-git checkout main
+git checkout master
 git add .
 git commit -m " updated"
-git push origin main
+git push origin master
 ```
 3. We are using `gh-pages` for the deployment.
 ```
 git checkout  gh-pages
 git fetch origin gh-pages
 git rm -rf .
-git checkout main -- 'public/*'
+git checkout master -- 'public/*'
 mv -f public/* .
 rm -r public
 git add .
